@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron:  '23 16 * * *'
+    - cron:  '15 4 * * *'
   workflow_dispatch:
 
 jobs:
